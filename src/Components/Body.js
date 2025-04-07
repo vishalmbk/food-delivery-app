@@ -1,7 +1,12 @@
+import Restaurent from "./Restaurent";
+
 const Body = () => {
   return (
     <>
-      <h1>this is BAody</h1>
+      <div>
+        {" "}
+        <Restaurent />{" "}
+      </div>
     </>
   );
 };

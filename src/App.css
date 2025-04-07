@@ -1,17 +1,40 @@
-html {
-  color-scheme: light dark;
-  font-family: system-ui;
-  display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
-  height: 100%;
-}
-.header-container {
+header {
   display: flex;
   border: 1px solid black;
-  /* flex-direction: column; */
-  /* align-items: center; */
   justify-content: space-between;
   padding: 5px;
+  margin: 1px;
+}
+.nav-list {
+  display: flex;
+  margin: 3px;
+  list-style-type: none;
+}
+.nav-list > li {
+  margin: 0 5px;
+}
+.app-logo {
+  width: 4em;
+  height: 4em;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.res-container {
+  display: flex;
+
+  margin: 2 1px;
+  width: 200px;
+  cursor: pointer;
+}
+.res-container:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+.cardd-list {
+  list-style-type: none;
+}
+.res-card > img {
   width: 100%;
 }
