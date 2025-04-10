@@ -1,12 +1,10 @@
+import { resDataList } from "../utils/Constant";
 import Restaurent from "./Restaurent";
 
 const Body = () => {
   return (
     <>
-      <div>
-        {" "}
-        <Restaurent />{" "}
-      </div>
+      <Restaurent resList={resDataList} />
     </>
   );
 };
